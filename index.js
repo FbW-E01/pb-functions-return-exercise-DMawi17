@@ -8,14 +8,23 @@ checkAge = (age) => {
     } else {
         isItTrue = false;
     }
-    console.log(isItTrue);
+    return isItTrue
 };
-checkAge(18);
+
+console.log(checkAge(18))
+
 
 // Write a function min(a,b) which returns the least of two numbers a and b.
-min = (a, b) => console.log(Math.min(a, b));
-min(5, 3);
+
+function min(a, b) {
+  return Math.min(a, b);
+  
+}
+console.log(min(5, 3));
 
 // Write a function pow(x,n) that returns x in power n. Or, in other words, multiplies x by itself n times and returns the result.
-pow = (x, n) => console.log((isItSimple = x ** n));
-pow(3, 3);
+function pow(x, n){
+  return x ** n
+  };
+console.log(pow(3, 3));
+
